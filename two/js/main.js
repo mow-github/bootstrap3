@@ -7,7 +7,6 @@ Date: 2016-10-30
 
 window.onload = function(){
 
-console.log("js loaded");
 
 }
 

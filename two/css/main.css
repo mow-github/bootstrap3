@@ -1,0 +1,19 @@
+.ham-menu{
+  font-size: 3em;
+}
+.ham-menu:hover{
+  cursor: pointer;
+}
+
+/*
+.ham-menu:focus ~ li>a{
+  display: block;
+}
+*/
+
+
+@media (max-width: 765px){
+  .nav>li>a {
+    display: none;
+  }
+}
