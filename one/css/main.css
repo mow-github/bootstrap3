@@ -1,0 +1,45 @@
+body{
+  color: greenyellow;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+
+}
+
+.masthead-nav > li > a {
+  color: greenyellow; /* IE8 proofing */
+  color: rgba(173,255,47,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  color: whitesmoke;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: greenyellow;
+  border-bottom-color: greenyellow;
+}
+
+
+
+
+@media (max-width: 765px){
+
+  body{
+    overflow-y: scroll;
+  }
+  .masthead-nav {
+  float:none;
+  }
+  .masthead-nav > li {
+    display: block;
+  }
+  .hamburger:hover{
+    color: white;
+    cursor: pointer;
+  }
+}
+
